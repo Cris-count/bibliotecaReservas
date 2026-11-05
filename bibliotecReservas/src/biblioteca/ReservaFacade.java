@@ -39,8 +39,6 @@ public class ReservaFacade {
                 .sala(sala.get())
                 .build();
 
-        observadores.forEach(reserva::agregarObservador);
-
         repositorioReservas.guardar(reserva);
         reserva.confirmar();
         return Optional.of(reserva);
