@@ -1,0 +1,9 @@
+responsabilidades que no deben de ir en el Main
+- toda la parte operacional
+- todo el flujo de la informacion
+- el guardado de tados importantes
+- migraciones e importaciones
+- importacion de paquetes
+
+pregunta 2: por que al tener tanta demanda de manejo de informacion y al estar ejecutanto varias operaiones en un mismo flujo o archivo
+el sistema colapsa y puede caerse o disminuir su rapides gracias a la obre carga de tareas que tiene
